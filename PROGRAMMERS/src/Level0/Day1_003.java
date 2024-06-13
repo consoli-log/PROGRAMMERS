@@ -1,12 +1,13 @@
 package Level0;
 
+// 두 수의 곱
 public class Day1_003 {
 
     public static void main(String[] args) {
 
-        solution(1,2);
+        System.out.println(solution(3,4));
+        System.out.println(solution(27,19));
 
-        System.out.println(solution(1,2));
     }
 
     public static int solution(int a, int b) {

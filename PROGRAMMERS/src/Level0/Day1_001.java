@@ -1,12 +1,13 @@
 package Level0;
 
+// 두 수의 합
 public class Day1_001 {
 
     public static void main(String[] args) {
 
-        solution(1,2);
+        System.out.println(solution(2,3));
+        System.out.println(solution(100,2));
 
-        System.out.println(solution(1,2));
     }
 
     public static int solution(int a, int b) {

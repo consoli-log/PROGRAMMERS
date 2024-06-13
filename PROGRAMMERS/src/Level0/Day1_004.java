@@ -1,12 +1,13 @@
 package Level0;
 
+// 몫 구하기
 public class Day1_004 {
 
     public static void main(String[] args) {
 
-        solution(1,2);
+        System.out.println(solution(10,5));
+        System.out.println(solution(7,2));
 
-        System.out.println(solution(1,2));
     }
 
     public static int solution(int a, int b) {
