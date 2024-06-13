@@ -18,4 +18,5 @@ public class Day1_001 {
 
         return answer;
     }
+
 }
