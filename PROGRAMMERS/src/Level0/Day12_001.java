@@ -28,7 +28,6 @@ public class Day12_001 {
         answer = answer.replace("o" , "");
         answer = answer.replace("u" , "");
 
-
         return answer;
     }
 
