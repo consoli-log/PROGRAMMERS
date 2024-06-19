@@ -24,7 +24,6 @@ public class Day12_002 {
     }
 
     public static int[] solution(String my_string) {
-
         my_string = my_string.replaceAll("[^0-9]", "");
 
         int[] answer = new int[my_string.length()];
