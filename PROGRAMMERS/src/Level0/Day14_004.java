@@ -1,8 +1,6 @@
 package Level0;
 
-import java.util.Arrays;
-
-/*
+    /*
     @ 대문자와 소문자
 
     문자열 my_string이 매개변수로 주어질 때,

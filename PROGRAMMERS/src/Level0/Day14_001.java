@@ -1,11 +1,8 @@
 package Level0;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
-/*
+    /*
     @ 가까운 수
 
     정수 배열 array와 정수 n이 매개변수로 주어질 때,
