@@ -16,8 +16,8 @@ public class Day15_001 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution("onetwothreefourfivesixseveneightnine"));
-        System.out.println(solution("onefourzerosixseven"));
+        System.out.println(solution("onetwothreefourfivesixseveneightnine")); // 123456789
+        System.out.println(solution("onefourzerosixseven")); // 14067
 
     }
 

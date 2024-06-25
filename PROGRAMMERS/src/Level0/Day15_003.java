@@ -18,9 +18,9 @@ public class Day15_003 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution("abcabcadc"));
-        System.out.println(solution("abdc"));
-        System.out.println(solution("hello"));
+        System.out.println(solution("abcabcadc")); // "d"
+        System.out.println(solution("abdc")); //	"abcd"
+        System.out.println(solution("hello")); // "eho"
 
     }
 

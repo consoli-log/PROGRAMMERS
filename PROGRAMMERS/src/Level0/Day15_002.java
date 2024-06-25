@@ -16,8 +16,8 @@ public class Day15_002 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution("hello", 1, 2));
-        System.out.println(solution("I love you", 3, 6));
+        System.out.println(solution("hello", 1, 2)); // "hlelo"
+        System.out.println(solution("I love you", 3, 6)); // "I l veoyou"
 
     }
 
