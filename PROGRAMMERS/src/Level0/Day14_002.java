@@ -15,8 +15,8 @@ public class Day14_002 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution(3));
-        System.out.println(solution(29423));
+        System.out.println(solution(3)); // 1
+        System.out.println(solution(29423)); // 2
 
     }
 
@@ -32,6 +32,7 @@ public class Day14_002 {
             }
 
         }
+
         return answer;
     }
 

@@ -18,8 +18,8 @@ public class Day14_003 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution("dfjardstddetckdaccccdegk", 4));
-        System.out.println(solution("pfqallllabwaoclk", 2));
+        System.out.println(solution("dfjardstddetckdaccccdegk", 4)); // "attack"
+        System.out.println(solution("pfqallllabwaoclk", 2)); // "fallback"
 
     }
 

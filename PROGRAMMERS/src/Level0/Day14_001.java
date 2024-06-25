@@ -18,10 +18,8 @@ public class Day14_001 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution(new int[] {3, 10, 28}, 20));
-        System.out.println(solution(new int[] {10, 11, 12}, 13));
-        System.out.println(solution(new int[] {2, 3, 4}, 1));
-
+        System.out.println(solution(new int[] {3, 10, 28}, 20)); // 28
+        System.out.println(solution(new int[] {10, 11, 12}, 13)); // 12
 
     }
 
@@ -53,7 +51,6 @@ public class Day14_001 {
                 answer = newArray[findIndex - 1];
             }
         }
-
 
         return answer;
     }

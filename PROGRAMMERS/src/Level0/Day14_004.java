@@ -14,8 +14,8 @@ public class Day14_004 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution("cccCCC"));
-        System.out.println(solution("abCdEfghIJ"));
+        System.out.println(solution("cccCCC")); // "CCCccc"
+        System.out.println(solution("abCdEfghIJ")); // "ABcDeFGHij"
 
     }
 
@@ -36,9 +36,5 @@ public class Day14_004 {
 
         return answer;
     }
-
-
-
-
 
 }
