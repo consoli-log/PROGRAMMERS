@@ -14,8 +14,8 @@ public class Day12_003 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution("aAb1B2cC34oOp"));
-        System.out.println(solution("1a2b3c4d123"));
+        System.out.println(solution("aAb1B2cC34oOp")); // 10
+        System.out.println(solution("1a2b3c4d123")); // 16
 
     }
 
@@ -23,14 +23,11 @@ public class Day12_003 {
         int answer = 0;
 
         for(int i = 0; i < my_string.length(); i++){
-
             if(Character.isDigit(my_string.charAt(i)) == true) {
                 int number = Character.getNumericValue(my_string.charAt(i)); // getNumericValue : Char문자열 정수로 변환
 
                 answer = answer + number;
-
             }
-
         }
 
         return answer;

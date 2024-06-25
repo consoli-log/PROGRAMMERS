@@ -17,9 +17,9 @@ public class Day12_002 {
 
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(solution("hi12392")));
-        System.out.println(Arrays.toString(solution("p2o4i8gj2")));
-        System.out.println(Arrays.toString(solution("abcde0")));
+        System.out.println(Arrays.toString(solution("hi12392"))); // [1, 2, 2, 3, 9]
+        System.out.println(Arrays.toString(solution("p2o4i8gj2"))); // [2, 2, 4, 8]
+        System.out.println(Arrays.toString(solution("abcde0"))); // [0]
 
     }
 

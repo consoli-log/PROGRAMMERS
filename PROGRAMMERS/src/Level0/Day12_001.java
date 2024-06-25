@@ -14,8 +14,8 @@ public class Day12_001 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution("bus"));
-        System.out.println(solution("nice to meet you"));
+        System.out.println(solution("bus")); // "bs"
+        System.out.println(solution("nice to meet you")); // "nc t mt y"
 
     }
 
