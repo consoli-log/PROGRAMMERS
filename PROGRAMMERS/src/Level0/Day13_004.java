@@ -17,9 +17,9 @@ public class Day13_004 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution(new int[] {1, 2, 3}));
-        System.out.println(solution(new int[] {3, 6, 2}));
-        System.out.println(solution(new int[] {199, 72, 222}));
+        System.out.println(solution(new int[] {1, 2, 3})); // 2
+        System.out.println(solution(new int[] {3, 6, 2})); // 2
+        System.out.println(solution(new int[] {199, 72, 222})); // 1
 
     }
 

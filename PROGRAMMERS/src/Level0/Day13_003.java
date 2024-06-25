@@ -19,8 +19,8 @@ public class Day13_003 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution("people"));
-        System.out.println(solution("We are the world"));
+        System.out.println(solution("people")); // "peol"
+        System.out.println(solution("We are the world")); // "We arthwold"
 
     }
 
@@ -41,4 +41,5 @@ public class Day13_003 {
 
         return answer;
     }
+
 }

@@ -16,8 +16,8 @@ public class Day13_002 {
 
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(solution(new String[] {"We", "are", "the", "world!"})));
-        System.out.println(Arrays.toString(solution(new String[] {"I", "Love", "Programmers."})));
+        System.out.println(Arrays.toString(solution(new String[] {"We", "are", "the", "world!"}))); // [2, 3, 3, 6]
+        System.out.println(Arrays.toString(solution(new String[] {"I", "Love", "Programmers."}))); // [1, 4, 12]
 
     }
 
