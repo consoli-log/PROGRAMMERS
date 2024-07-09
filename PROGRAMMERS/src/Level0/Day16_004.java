@@ -21,7 +21,6 @@ public class Day16_004 {
 
     }
 
-    // TODO
     public static int solution(String[] s1, String[] s2) {
         int answer = 0;
 
