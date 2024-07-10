@@ -17,9 +17,14 @@ public class Day17_003 {
 
     }
 
-    // TODO
     public static int solution(int n) {
         int answer = 0;
+
+        String[] str = Integer.toString(n).split("");
+
+        for(String text : str) {
+            answer += Integer.parseInt(text);
+        }
 
         return answer;
     }

@@ -26,9 +26,31 @@ public class Day17_004 {
 
     }
 
-    // TODO
     public static String[] solution(String[] quiz) {
-        String[] answer = {};
+        String[] answer = new String[quiz.length];
+
+        for (int i = 0; i < quiz.length; i++) {
+
+            String[] calc = quiz[i].split(" ");
+
+            int temp = calc[1].equals("+") ? Integer.parseInt(calc[0]) + Integer.parseInt(calc[2]) : Integer.parseInt(calc[0]) - Integer.parseInt(calc[2]);
+
+            answer[i] = temp == Integer.parseInt(calc[4]) ? "O" : "X";
+
+//            if (calc[1].equals("+")) {
+//                temp = Integer.parseInt(calc[0]) + Integer.parseInt(calc[2]);
+//            } else if (calc[1].equals("-")){
+//                temp = Integer.parseInt(calc[0]) - Integer.parseInt(calc[2]);
+//            }
+
+//            if (temp == Integer.parseInt(calc[4])){
+//                answer[i] = "O";
+//            } else if (temp != Integer.parseInt(calc[4])){
+//                answer[i] = "X";
+//            }
+
+        }
+
         return answer;
     }
 

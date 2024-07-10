@@ -1,5 +1,6 @@
 package Level0;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
     /*
@@ -23,10 +24,20 @@ public class Day17_002 {
 
     }
 
-    // TODO
     public static int[] solution(int n, int[] numlist) {
-        int[] answer = {};
-        return answer;
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        // 1. 주어진 변수와 배열의 각 요소를 나눠n 떨어지면 나두고 나머지가 있으면 제거
+        // 2. 나눠 떨어지면 answer 배열에 담기 -> 가변크기를 위해 ArrayList 사용 ✔
+
+        for (int i = 0; i < numlist.length; i++) {
+            if (numlist[i] % n == 0) {
+                list.add(numlist[i]);
+            }
+        }
+
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 
 }
