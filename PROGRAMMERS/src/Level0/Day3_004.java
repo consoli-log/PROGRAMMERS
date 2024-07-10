@@ -14,8 +14,8 @@ public class Day3_004 {
 
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(solution(10)));
-        System.out.println(Arrays.toString(solution(15)));
+        System.out.println(Arrays.toString(solution(10))); // [1, 3, 5, 7, 9]
+        System.out.println(Arrays.toString(solution(15))); // [1, 3, 5, 7, 9, 11, 13, 15]
 
     }
 

@@ -15,8 +15,8 @@ public class Day4_003 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution(7, 10));
-        System.out.println(solution(4, 12));
+        System.out.println(solution(7, 10)); // 2
+        System.out.println(solution(4, 12)); // 3
 
     }
 

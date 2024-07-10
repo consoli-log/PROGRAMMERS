@@ -16,8 +16,8 @@ public class Day2_004 {
 
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(solution(new int[] {1, 2, 3, 4, 5})));
-        System.out.println(Arrays.toString(solution(new int[] {1, 2, 100, -99, 1, 2, 3})));
+        System.out.println(Arrays.toString(solution(new int[] {1, 2, 3, 4, 5}))); // [2, 4, 6, 8, 10]
+        System.out.println(Arrays.toString(solution(new int[] {1, 2, 100, -99, 1, 2, 3}))); // [2, 4, 200, -198, 2, 4, 6]
 
     }
 

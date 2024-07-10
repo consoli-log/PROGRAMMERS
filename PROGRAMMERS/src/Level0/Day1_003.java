@@ -13,8 +13,8 @@ public class Day1_003 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution(3, 4));
-        System.out.println(solution(27, 19));
+        System.out.println(solution(3, 4)); // 12
+        System.out.println(solution(27, 19)); // 513
 
     }
 

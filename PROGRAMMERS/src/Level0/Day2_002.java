@@ -13,9 +13,9 @@ public class Day2_002 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution(2, 3));
-        System.out.println(solution(11, 11));
-        System.out.println(solution(7, 99));
+        System.out.println(solution(2, 3)); // -1
+        System.out.println(solution(11, 11)); // 1
+        System.out.println(solution(7, 99)); // -1
 
     }
 
