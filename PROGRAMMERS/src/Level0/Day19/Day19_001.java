@@ -24,7 +24,8 @@ public class Day19_001 {
         int answer = 0;
 
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < (array[i] + "" ).length(); j++) {
+            // array[i] + ""를 하면 간단하게 숫자를 문자열로 변환 가능
+            for (int j = 0; j < (array[i] + "").length(); j++) {
                 if((array[i] + "").charAt(j) == '7') {
                     answer++;
                 }
