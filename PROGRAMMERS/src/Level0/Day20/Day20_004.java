@@ -1,8 +1,6 @@
 package Level0.Day20;
 
-import java.util.Arrays;
-
-/*
+    /*
     @ 다항식 더하기
 
     한 개 이상의 항의 합으로 이루어진 식을 다항식이라고 합니다.
